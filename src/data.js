@@ -3,9 +3,9 @@
 const getJson = require("./get-json");
 const { interpolate } = require("./util/string");
 
-const scoreboardURL = interpolate("http://data.nba.com/data/5s/json/cms/noseason/scoreboard/__date__/games.json");
-const boxScoreURL = interpolate("http://data.nba.com/data/5s/json/cms/noseason/game/__date__/__gameId__/boxscore.json");
-const playByPlayURL = interpolate("http://data.nba.com/data/5s/json/cms/noseason/game/__date__/__gameId__/pbp_all.json");
+const scoreboardURL = interpolate("https://data.nba.com/data/5s/json/cms/noseason/scoreboard/__date__/games.json");
+const boxScoreURL = interpolate("https://data.nba.com/data/5s/json/cms/noseason/game/__date__/__gameId__/boxscore.json");
+const playByPlayURL = interpolate("https://data.nba.com/data/5s/json/cms/noseason/game/__date__/__gameId__/pbp_all.json");
 
 // NOTE: the 'date' argument should be a string in format like "20181008" (which indicates Oct 8 2018)
 // You *can* pass a Date object but beware of timezone weirdness!

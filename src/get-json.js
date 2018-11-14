@@ -9,7 +9,7 @@ const HEADERS = {
   Referer: template.referrer,
   Connection: "keep-alive",
   "Cache-Control": "no-cache",
-  Origin: "http://stats.nba.com",
+  Origin: "https://stats.nba.com",
 };
 
 function createUrlString (_url, query) {

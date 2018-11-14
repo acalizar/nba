@@ -44,8 +44,8 @@ const parameters = [
 ];
 
 const synergyEndpoints = [
-  { name: "player_play_type", url: "http://stats-prod.nba.com/wp-json/statscms/v1/synergy/player/" },
-  { name: "team_play_type", url: "http://stats-prod.nba.com/wp-json/statscms/v1/synergy/team/" },
+  { name: "player_play_type", url: "https://stats-prod.nba.com/wp-json/statscms/v1/synergy/player/" },
+  { name: "team_play_type", url: "https://stats-prod.nba.com/wp-json/statscms/v1/synergy/team/" },
 ];
 
 const defaults = {};
